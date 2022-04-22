@@ -7,7 +7,7 @@ from siricoin import siriCoin
 
 siri = siriCoin()
 ```
-Here some commands:
+Here some commands you may use:
 ```
 #                      Private key               From            To            Amount
 print(siri.transaction("XXXXXXXXXXXXXXXXXXXXXX", "0x4ba...b313", "0xbd...164", 1))
