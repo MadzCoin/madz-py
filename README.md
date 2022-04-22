@@ -1,6 +1,11 @@
 # SiriCoin-py
 Siricoin-py is a rpc and api wrapper.
 
+First, install it via pip:
+```
+pip install siricoin
+```
+
 To create a new instance, run:
 ```
 from siricoin import siriCoin
