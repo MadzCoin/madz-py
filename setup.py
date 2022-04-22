@@ -9,7 +9,7 @@ setup(
     author = "Bastel Pichi",
     author_email = "pichi@pichisdns.com",
     url = "https://github.com/BastelPichi/siricoin-py",
-    download_url = "https://github.com/BastelPichi/siricoin-py/archive/01.tar.gz",
+    download_url = "https://github.com/BastelPichi/siricoin-py/archive/refs/tags/0.1.tar.gz",
     keywords = ["SiriCoin", "Crypto", "RPC"],
     install_requires = [
         "web3",
