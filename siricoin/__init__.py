@@ -1,0 +1,1 @@
+from siricoin.siricoin import siriCoin
