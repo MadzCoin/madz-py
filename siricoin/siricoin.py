@@ -5,7 +5,7 @@ from eth_account.messages import encode_defunct
 
 
 class siriCoin:
-    def __init__(self, node="https://siricoin-node-1.dynamic-dns.net:5005"):
+    def __init__(self, node="https://node-1.siricoin.tech:5006"):
         self.node = node
         self.w3node = node + "/web3"
         self.w3 = Web3(Web3.HTTPProvider(self.w3node))
