@@ -1,5 +1,6 @@
 import json
 import requests
+import re
 from web3 import Web3
 from eth_account.messages import encode_defunct
 
@@ -48,6 +49,11 @@ class siriCoin:
         """Checks if the address is valid."""
         self._check()
         return self.w3.isAddress(address)
+    
+    def is_TXID(self, txid):
+        """Checks if a transaction hash/ID is valid."""
+        self._check()
+        return bool(re.search("^[0-9a-fA-F]{64}$$", txid.replace("0x", "")))
 
 
     def transaction(self, privkey, fromaddr, to, amount):
