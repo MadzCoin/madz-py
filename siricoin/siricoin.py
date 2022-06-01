@@ -50,7 +50,7 @@ class siriCoin:
         self._check()
         return self.w3.isAddress(address)
     
-    def is_TXID(self, txid):
+    def is_txid(self, txid):
         """Checks if a transaction hash/ID is valid."""
         self._check()
         return bool(re.search("^[0-9a-fA-F]{64}$$", txid.replace("0x", "")))
