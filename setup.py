@@ -7,7 +7,7 @@ readme = (readme / "README.md").read_text()
 setup(
     name = "siricoin",
     packages = ["siricoin"],
-    version = "0.4",
+    version = "0.5",
     license= "MIT",
     description = "SiriCoin RPC Client",
     long_description = readme,
@@ -15,7 +15,7 @@ setup(
     author = "Bastel Pichi",
     author_email = "pichi@pichisdns.com",
     url = "https://github.com/BastelPichi/siricoin-py",
-    download_url = "https://github.com/BastelPichi/siricoin-py/archive/refs/tags/0.4.tar.gz",
+    download_url = "https://github.com/BastelPichi/siricoin-py/archive/refs/tags/0.5.tar.gz",
     keywords = ["SiriCoin", "Crypto", "RPC"],
     install_requires = [
         "web3",
