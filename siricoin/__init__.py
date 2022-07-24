@@ -1,2 +1,2 @@
-from siricoin.siricoin import siriCoin
-from siricoin.utils import *
+from sirious.sirious import sirious
+from sirious.utils import *
