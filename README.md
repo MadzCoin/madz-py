@@ -6,7 +6,7 @@ First, install it via pip:
 pip install sirious
 ```
 
-All commands interfacing with the node need to use an Instance of `siriCoin()`
+All commands interfacing with the node need to use an Instance of `sirious()`
 
 To create a new instance, run:
 ```
