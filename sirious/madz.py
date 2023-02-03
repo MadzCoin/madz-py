@@ -5,8 +5,8 @@ from eth_account.messages import encode_defunct
 from .utils import decode_raw_tx
 
 
-class sirious:
-    def __init__(self, node="https://testnet.siro.pichisdns.com:5006"):
+class madz:
+    def __init__(self, node="https://78.58.45.205"):
         self.node = node
         self.w3node = node + "/web3"
         self.w3 = Web3(Web3.HTTPProvider(self.w3node))
