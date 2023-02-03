@@ -1,2 +1,2 @@
-from sirious.sirious import sirious
-from sirious.utils import *
+from madz-py.madz import madz
+from madz-py.utils import *
