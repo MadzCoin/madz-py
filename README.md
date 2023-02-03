@@ -1,30 +1,30 @@
-# Sirious-py
-Sirious-py is a rpc and api wrapper.
+# madz-py
+madz-py is a rpc and api wrapper.
 
-First, install it via pip:
+First, install it:
 ```
-pip install sirious
+python3 setup.py install
 ```
 
-All commands interfacing with the node need to use an Instance of `sirious()`
+All commands interfacing with the node need to use an Instance of `madz()`
 
 To create a new instance, run:
 ```
-import sirious
+import madz-py
 
-siro = sirious.sirious()
+madz = madz-py.madz()
 ```
 Here are some commands you can use:
 ```
 #                      Private key               From            To            Amount
-print(siro.transaction("XXXXXXXXXXXXXXXXXXXXXX", "0x4ba...b313", "0xbd...164", 1))
+print(madz.transaction("XXXXXXXXXXXXXXXXXXXXXX", "0x4ba...b313", "0xbd...164", 1))
 # returns False 
 
 #                  Address
-print(siro.balance("0x4ba...b313"))
+print(madz.balance("0x4ba...b313"))
 
 #                     Address
-print(siro.is_address("0x4ba...b313"))
+print(madz.is_address("0x4ba...b313"))
 
 ```
 
