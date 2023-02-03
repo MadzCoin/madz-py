@@ -32,7 +32,7 @@ Better docs soon™
 
 If you face any issues, file a issue on Github.
 
-If you want to support the developer, send, Sirious, BNB, MATIC or ETH to the following address:
-```0x4baE9F81a30b148Eb40044F6268B5496861Cb313```
+If you want to support the developer, send, Madz, BNB, MATIC or ETH to the following address:
+```0xAFDfedC5311218B636EEbe3837C489c3BeAcFfB4```
 
 This code is released under MIT License.
