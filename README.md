@@ -1,5 +1,5 @@
 # madz-py
-madz-py is a rpc and api wrapper.
+madzpy is a rpc and api wrapper.
 
 First, install it:
 ```
@@ -10,9 +10,9 @@ All commands interfacing with the node need to use an Instance of `madz()`
 
 To create a new instance, run:
 ```
-import madz-py
+import madzpy
 
-madz = madz-py.madz()
+madz = madzpy.madz()
 ```
 Here are some commands you can use:
 ```
