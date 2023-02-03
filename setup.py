@@ -5,8 +5,8 @@ readme = Path(__file__).parent
 readme = (readme / "README.md").read_text()
 
 setup(
-    name = "madz-py",
-    packages = ["madz-py"],
+    name = "madzpy",
+    packages = ["madzpy"],
     version = "0.5",
     license= "MIT",
     description = "Madzcoin RPC Client",
