@@ -13,7 +13,7 @@ setup(
     long_description = readme,
     long_description_content_type = "text/markdown",
     author = "Bastel Pichi",
-    author_email = "pichi@pichisdns.com",
+    author_email = "madzcoin@pichisdns.com",
     url = "https://github.com/MadzCoin/madz-py/",
     download_url = "https://github.com/MadzCoin/madz-py/archive/refs/heads/main.zip",
     keywords = ["Madzcoin", "Crypto", "RPC"],
