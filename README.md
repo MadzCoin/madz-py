@@ -28,7 +28,7 @@ print(madz.is_address("0x4ba...b313"))
 
 ```
 
-Better docs soon™
+Better docs soon!
 
 If you face any issues, file a issue on Github.
 

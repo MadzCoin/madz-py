@@ -7,7 +7,7 @@ readme = (readme / "README.md").read_text()
 setup(
     name = "madzpy",
     packages = ["madzpy"],
-    version = "0.5",
+    version = "0.7",
     license= "MIT",
     description = "Madzcoin RPC Client",
     long_description = readme,
