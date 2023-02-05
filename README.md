@@ -3,7 +3,7 @@ madzpy is a rpc and api wrapper.
 
 First, install it:
 ```
-python3 setup.py install
+pip3 install madzpy
 ```
 
 All commands interfacing with the node need to use an Instance of `madz()`
